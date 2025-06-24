@@ -38,7 +38,8 @@ The LLM dynamically generates step-by-step explanations of sorting processes bas
 ---
 
 ## 🏗️ 5. System Architecture Diagram (Text-based)
-"[ User ]
+```
+[ User ]
 |
 ▼
 [ Frontend - React UI ]
@@ -51,5 +52,6 @@ The LLM dynamically generates step-by-step explanations of sorting processes bas
 ▼
 [ LLM Engine (GPT / Mistral) ]
 |
-└── (optional) TTS Engine (ElevenLabs, Google TTS)"
+└── (optional) TTS Engine (ElevenLabs, Google TTS)
 
+```
