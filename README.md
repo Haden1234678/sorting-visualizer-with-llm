@@ -38,4 +38,18 @@ The LLM dynamically generates step-by-step explanations of sorting processes bas
 ---
 
 ## 🏗️ 5. System Architecture Diagram (Text-based)
+"[ User ]
+|
+▼
+[ Frontend - React UI ]
+|
+└── Sorting Visualizer (Canvas/SVG)
+|
+▼
+[ Narration API - Python ]
+|
+▼
+[ LLM Engine (GPT / Mistral) ]
+|
+└── (optional) TTS Engine (ElevenLabs, Google TTS)"
 
